@@ -6,16 +6,16 @@ html {
 body {
   height: 95%;
   width: 100%;
-  font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  font-family: helvetica;
+  font-size: 14px;
+  background: #fcfcfc;
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 0.3em;
 }
 
 .main-container h1 {
@@ -24,11 +24,17 @@ body {
 
 .text-box {
   margin: 0px auto;
-  width: 40%;
+  margin-bottom: 25px;
+  width: 100%;
 }
-
-p{
+ 
+p {
+  background-color: #759FA0;
+  color: white;
+  border: 0.5px solid black;
+  border-radius: 0.3em;
+  padding: 10px;
   text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+  margin: 6px;
+  font-size: 91%;
 }
